@@ -20,3 +20,33 @@ maior_de_idade = idade >= 18
 print("Nome: ", nome, "Idade: ", idade, sep="--")
 print("Maior de idade? ", maior_de_idade)
 
+
+"""
+Usando o prompt para inserir informações
+"""
+
+numero = input("Digite o valor: ")
+print(numero, type(numero))
+# F-strings
+print(f"Soma do número {numero} + 3 = {int(numero) + 3}")
+
+# -----------------------------------------------------------
+
+concatenacao = 'Leonardo' + ' ' + 'Raiz'
+print(concatenacao)
+
+a_dez_vezes = 'A' * 10
+tres_vezes_leo = 3 * 'Leo'
+print(a_dez_vezes)
+print(tres_vezes_leo)
+
+# ---------------------- Precedência entre os operadores --------------------------
+
+#1. (n + n)
+#2. **
+#3. * / // %
+#4. + -
+
+# conta_1 = 1 + 1 ** 5 + 5 # resultado 7
+conta_1 = (1 + 1) ** (5 + 5)
+print(conta_1)
