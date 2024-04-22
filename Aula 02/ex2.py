@@ -1,3 +1,10 @@
+"""
+Exercício 2: IMC
+Escreva um programa em Python que calcule o Índice de Massa Corporal (IMC) de uma pessoa utilizando o nome, altura e peso fornecidos. O programa deve imprimir a informação formatada usando f-strings para exibir a altura com duas casas decimais e o IMC também com duas casas decimais.
+"""
+
+
+
 nome = 'Léo Raiz'
 altura = 1.93
 peso = 105
