@@ -13,8 +13,8 @@ string = 'ABCDE'  # 5 caracteres (len)
 
 #        0    1      2              3    4
 #       -5   -4     -3             -2   -1
-lista = [123, True, 'Luiz Otávio',  1.2, []]
-lista[-3] = 'Maria'
+lista = [123, True, 'Leonardo',  1.2, []]
+lista[-3] = 'Carolina'
 print(lista)
 print(lista[2], type(lista[2]))
 
@@ -47,7 +47,7 @@ print(lista, 'Removido,', ultimo_valor)
 
 #        0   1   2   3
 lista = [10, 20, 30, 40]
-lista.append('Luiz')
+lista.append('Leonardo')
 nome = lista.pop()
 lista.append(1233)
 del lista[-1]
@@ -68,7 +68,7 @@ Cuidados com dados mutáveis
 = - copiado o valor (imutáveis)
 = - aponta para o mesmo valor na memória (mutável)
 """
-lista_a = ['Luiz', 'Maria', 1, True, 1.2]
+lista_a = ['Leonardo', 'Carolina', 1, True, 1.2]
 lista_b = lista_a.copy()
 
 lista_a[0] = 'Qualquer coisa'
@@ -78,7 +78,7 @@ print(lista_b)
 """
 for in com listas
 """
-lista = ['Maria', 'Helena', 'Luiz']
+lista = ['Lana', 'Carolina', 'Leonardo']
 
 for nome in lista:
     print(nome, type(nome))
